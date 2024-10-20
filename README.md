@@ -1,4 +1,4 @@
-# CE7454 Project 1 
+# CE7454 Project 1: CelebA Face Parsing Challenge 
 
 
 ## Python: 3.12.7
@@ -74,15 +74,23 @@ wcwidth                     0.2.13
 wheel                       0.44.0
 ```
 
-Command:
-data augmentation:
+## Command:
+### data augmentation:
+```
 python data_augmentation.py
+```
 
-train:
+### train:
+```
 python train.py
+```
 
-predict:
+### predict:
+```
 python predict.py
+```
 
-evaluate:
+### evaluate:
+```
 python evaluate.py
+```
