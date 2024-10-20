@@ -5,7 +5,7 @@
 
 
 ## Third-party libraries:
-'''
+```
 asttokens                   2.4.1
 Brotli                      1.0.9
 certifi                     2024.8.30
@@ -72,7 +72,7 @@ typing_extensions           4.11.0
 urllib3                     2.2.3
 wcwidth                     0.2.13
 wheel                       0.44.0
-'''
+```
 
 Command:
 data augmentation:
