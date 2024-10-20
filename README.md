@@ -1,6 +1,10 @@
-# faceparsing
+Files：
+code is the code, test_result is the result on test images, best_model.pth is the best model, 
+screen_shot.png is the mIoU of test reults, G2403905K_ZhangSaining_project1.pdf is the report.
 
-## Installation
+Python: 3.12.7
+
+Third-party libraries:
 asttokens                   2.4.1
 Brotli                      1.0.9
 certifi                     2024.8.30
@@ -67,3 +71,16 @@ typing_extensions           4.11.0
 urllib3                     2.2.3
 wcwidth                     0.2.13
 wheel                       0.44.0
+
+Command:
+data augmentation:
+python data_augmentation.py
+
+train:
+python train.py
+
+predict:
+python predict.py
+
+evaluate:
+python evaluate.py
